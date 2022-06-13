@@ -1,0 +1,51 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ojo {
+
+    display: flex;
+    padding-top: 50px;
+
+}
+.tamaño {
+    height: 10em;
+    font-size: 2em;
+    background-position: center;
+    background-size: cover;
+}
+
+.ojo, .tamaño {
+
+padding-left: 50px;
+background-color: rgb(204, 238, 227);
+
+}
+.products {
+    width: 80%;
+    margin: 10%;
+}
+
+.products td {
+    width: 50%;
+    padding: 2em;
+}
+
+.products img {
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+.borde {
+    border-radius: 20px;
+}
+
+
+.footer {
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(75, 189, 119);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
