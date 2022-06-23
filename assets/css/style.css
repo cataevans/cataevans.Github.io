@@ -1,51 +1,39 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "Raleway", sans-serif;
 }
 
-.ojo {
+/* Hero Section */
 
-    display: flex;
-    padding-top: 50px;
-
-}
-.tamaño {
-    height: 10em;
-    font-size: 2em;
-    background-position: center;
-    background-size: cover;
+#Hero-Section {
+  background-image: url("../img/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
 }
 
-.ojo, .tamaño {
+/* Mis trabajos */
 
-padding-left: 50px;
-background-color: rgb(204, 238, 227);
-
-}
-.products {
-    width: 80%;
-    margin: 10%;
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.products td {
-    width: 50%;
-    padding: 2em;
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
 }
 
-.products img {
-    width: 100%;
-    border: solid 1px #ddd;
-}
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
 
-.borde {
-    border-radius: 20px;
-}
+  .navbar-brand{
+    width: 100px;
+  }
 
-
-.footer {
-    height: 3em;
-    line-height: 3em;
-    background-color: rgb(75, 189, 119);
-    color: white;
-    text-align: center;
-    font-weight: 900;
 }
